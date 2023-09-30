@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\rao18\source\repos\SDLSimple\CS31131\main.cpp(66,17): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\rao18\source\repos\SDLSimple\CS31131\main.cpp(67,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\rao18\source\repos\SDLSimple\CS31131\main.cpp(72,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\rao18\source\repos\SDLSimple\CS31131\main.cpp(73,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\rao18\source\repos\SDLSimple\CS31131\main.cpp(189,29): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\rao18\source\repos\SDLSimple\CS31131\main.cpp(195,28): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+  CS31131.vcxproj -> C:\Users\rao18\source\repos\SDLSimple\CS31131\Debug\CS31131.exe
