@@ -172,7 +172,8 @@ void initialise()
     g_player_texture_id = load_texture(PLAYER_SPRITE_FILEPATH);
     g_other_texture_id = load_texture(PLAYER_SPRITE_FILEPATH);
     g_ball_texture_id = load_texture(BALL_SPRITE_FILEPATH);
-    g_leftwon_texture_id = load_texture(LEFTWON_SPRITE_FILEPATH);
+
+
     g_rightwon_texture_id = load_texture(RIGHTWON_SPRITE_FILEPATH);
 
 
@@ -226,7 +227,8 @@ void process_input()
             {
                 g_player_movement.y = 1.0f;
             }
-            else if (key_state[SDL_SCANCODE_DOWN] && g_player_position.y - g_player_scale.y / 2.0f > lower)
+            else if (key_state[SDL_SCANCODE_DOWN] && g_player_position.y - g_player_scale.y / 2.0f > 
+                )
             {
                 g_player_movement.y = -1.0f;
             }
