@@ -1,10 +1,21 @@
+/**
+* Author: Yuzuka Rao
+* Assignment: Lunar Lander
+* Date due: 2023-11-08, 11:59pm
+* I pledge that I have completed this assignment without
+* collaborating with anyone else, in conformance with the
+* NYU School of Engineering Policies and Procedures on
+* Academic Misconduct.
+**/
+
+
 #define LOG(argument) std::cout << argument << '\n'
 #define STB_IMAGE_IMPLEMENTATION
 #define GL_SILENCE_DEPRECATION
 #define GL_GLEXT_PROTOTYPES 1
 #define NUMBER_OF_ENEMIES 3
 #define FIXED_TIMESTEP 0.0166666f
-#define ACC_OF_GRAVITY -1.0f
+#define ACC_OF_GRAVITY -5.0f
 #define PLATFORM_COUNT 3
 
 #ifdef _WINDOWS

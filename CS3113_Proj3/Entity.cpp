@@ -1,3 +1,13 @@
+/**
+* Author: Yuzuka Rao
+* Assignment: Lunar Lander
+* Date due: 2023-11-08, 11:59pm
+* I pledge that I have completed this assignment without
+* collaborating with anyone else, in conformance with the
+* NYU School of Engineering Policies and Procedures on
+* Academic Misconduct.
+**/
+
 #define GL_SILENCE_DEPRECATION
 #define STB_IMAGE_IMPLEMENTATION
 
@@ -124,7 +134,7 @@ void Entity::update(float delta_time, Entity* collidable_entities, int collidabl
         if (fuel != 0) {
             fuel -= 1;
             m_acceleration.y -= 0.1f;
-            m_acceleration.x -= 5.0f;
+            m_acceleration.x -= 10.0f;
         }
         
     }
@@ -135,9 +145,29 @@ void Entity::update(float delta_time, Entity* collidable_entities, int collidabl
             if (m_acceleration.y < 0.0f) {
                 m_acceleration.y += 0.1f;
             }
-            m_acceleration.x += 5.0f;
+            m_acceleration.x += 10.0f;
         }
     }
+    else
+    {
+        const float deceleration_rate = 5.0f; 
+        if (m_acceleration.x != 0.0f) {
+            if (m_acceleration.x > 0.0f) {
+                m_acceleration.x -= deceleration_rate * delta_time;
+                if (m_acceleration.x < 0.0f) {
+                    m_acceleration.x = 0.0f; 
+                }
+            }
+            else {
+                m_acceleration.x += deceleration_rate * delta_time;
+                if (m_acceleration.x > 0.0f) {
+                    m_acceleration.x = 0.0f;
+                }
+            }
+        }
+    }
+
+
 
     // Our character moves from left to right, so they need an initial velocity
     m_velocity.x = m_movement.x * m_speed;
