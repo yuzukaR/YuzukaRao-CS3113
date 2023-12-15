@@ -1,0 +1,36 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (CS3113_Proj4.vcxproj, CS3113_Proj5.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Entity.cpp
+C:\Users\rao18\source\repos\CS3113_Proj6\Entity.h(128,58): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+C:\Users\rao18\source\repos\CS3113_Proj6\Entity.h(129,58): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+  helper.cpp
+  LevelA.cpp
+C:\Users\rao18\source\repos\CS3113_Proj6\Entity.h(128,58): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+C:\Users\rao18\source\repos\CS3113_Proj6\Entity.h(129,58): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+C:\Users\rao18\source\repos\CS3113_Proj6\LevelA.cpp(88,24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  LevelB.cpp
+C:\Users\rao18\source\repos\CS3113_Proj6\Entity.h(128,58): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+C:\Users\rao18\source\repos\CS3113_Proj6\Entity.h(129,58): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+C:\Users\rao18\source\repos\CS3113_Proj6\LevelB.cpp(88,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  LevelC.cpp
+C:\Users\rao18\source\repos\CS3113_Proj6\Entity.h(128,58): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+C:\Users\rao18\source\repos\CS3113_Proj6\Entity.h(129,58): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+C:\Users\rao18\source\repos\CS3113_Proj6\LevelC.cpp(88,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  main.cpp
+C:\Users\rao18\source\repos\CS3113_Proj6\Entity.h(128,58): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+C:\Users\rao18\source\repos\CS3113_Proj6\Entity.h(129,58): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+  Map.cpp
+C:\Users\rao18\source\repos\CS3113_Proj6\Map.cpp(103,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\rao18\source\repos\CS3113_Proj6\Map.cpp(104,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  menu.cpp
+C:\Users\rao18\source\repos\CS3113_Proj6\Entity.h(128,58): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+C:\Users\rao18\source\repos\CS3113_Proj6\Entity.h(129,58): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+C:\Users\rao18\source\repos\CS3113_Proj6\menu.cpp(31,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Scene.cpp
+C:\Users\rao18\source\repos\CS3113_Proj6\Entity.h(128,58): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+C:\Users\rao18\source\repos\CS3113_Proj6\Entity.h(129,58): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+  ShaderProgram.cpp
+  sprite.cpp
+  Utility.cpp
+C:\Users\rao18\source\repos\CS3113_Proj6\Utility.cpp(47,23): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  CS3113_Proj6.vcxproj -> C:\Users\rao18\source\repos\CS3113_Proj6\Debug\CS3113_Proj6.exe

@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\rao18\source\repos\CS3113_Proj4\Entity.h(124,58): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+C:\Users\rao18\source\repos\CS3113_Proj4\Entity.h(125,58): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+C:\Users\rao18\source\repos\CS3113_Proj4\main.cpp(118,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\rao18\source\repos\CS3113_Proj4\main.cpp(260,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\rao18\source\repos\CS3113_Proj4\main.cpp(299,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  CS3113_Proj4.vcxproj -> C:\Users\rao18\source\repos\CS3113_Proj4\Debug\CS3113_Proj4.exe
